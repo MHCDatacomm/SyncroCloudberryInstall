@@ -14,4 +14,5 @@ A new Baremetal backup plan is created, that will automatically run at 11pm ever
 Doesn't parse Storage Limit accounts to grab the ID.  Quickest way I know is to edit a user on msbackups.com, edit the Backup Destination, on the Storage Limit drop-down, right-click the field and choose Inspect (Chrome), drop-down the element that's highlighted, and your Storage Limit IDs should now be visible in the HTML, like this:  <option value="12345">Server 500GB</option>.  12345 would be your cbPackageID
 
 Help Setting Up Your API Credentials
+
 https://mspbackups.com/Admin/Help.aspx?c=Contents%2Fhelp_MBS_API_2.0.html#creds
